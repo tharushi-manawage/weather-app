@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="asset/css/style.css">
@@ -10,6 +11,8 @@
 
 <body>
     <div class="card">
+        <img src="asset/img/moon.png" id="toggle-icon">
+
         <div class="search">
             <input type="text" placeholder="Enter city name" spellcheck="false">
             <button><img src="asset/img/search.png"></button>
@@ -21,6 +24,7 @@
 
         <div class="weather">
             <img src="asset/img/rain.png" class="weather-icon">
+            <p class="description">Rain</p>
             <h1 class="temperature">22°C</h1>
             <h2 class="city">New York</h2>
 
@@ -43,7 +47,7 @@
             </div>
         </div>
     </div>
-    
+
     <script src="asset/js/app.js"></script>
 
 </body>
